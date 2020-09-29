@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/*
+*Parent class of both PatientUser and DoctorUser; provides basic information that is needed in both sub-classes
+*/
 public class User {
 private String userName;
 private String password; 
