@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/*
+*Keeps track of doctors and creates account for them as well
+*/
 public class DoctorUser extends User {
 	
 	private int doctorId;
