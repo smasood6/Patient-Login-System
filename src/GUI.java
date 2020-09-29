@@ -7,6 +7,10 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+/*
+*Provides the Graphical interface for where the main program will be run
+*performs all event-driven programming based on user-input
+*/
 public class GUI extends JFrame {
 
 	private JButton createAcc;
@@ -27,8 +31,10 @@ public class GUI extends JFrame {
 	private JTextField date;
 	private JTextField time;
 	private Account currentAccount;
-	
-	public GUI() {
+	/*
+	*Creates the basic front page of the login system
+	*/
+	public GUI() { 
 		super("Account Page");	
 		setLayout(new FlowLayout());
 		createAcc = new JButton("Create an account");
@@ -67,7 +73,9 @@ public class GUI extends JFrame {
 			accountPage.setSize(x,y);
 			accountPage.setVisible(true);
 		}
-	
+	/*
+	*Sub-class that performs any given action such as button pressing and opening of new windows based on user input
+	*/
 	private class TheHandler implements ActionListener{
 
 		@Override
