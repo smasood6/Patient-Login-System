@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/*
+*The patient class that stores all information of a unique patient
+*/
 public class PatientUser extends User {
 
 	private String favDoctor;
