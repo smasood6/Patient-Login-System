@@ -1,5 +1,6 @@
-
-
+/*
+*The basic overhead class for all patients to create/view appointments based on each unique patient
+*/
 public class Account{
 
 	private PatientUser user;
