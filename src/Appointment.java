@@ -1,4 +1,6 @@
-
+/*
+*Holds a unique appoinment object and stores all necessary data needed for an appoinment.
+*/
 public class Appointment {
 
 	private String doctor;
